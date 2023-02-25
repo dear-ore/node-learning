@@ -1,5 +1,5 @@
 class student {
-    constructor(){
+    constructor(name, level, matricNumber){
         this.name = name;
         this.level = level;
         this.matricNumber = matricNumber;
@@ -14,7 +14,7 @@ class student {
 class subStudent extends student {
     constructor(faculty) {
         super();
-        this.faculty = ;
+        this.faculty = "";
     }
 }
 // const student1 = new student("Yetunde", 200, "floe");
